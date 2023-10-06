@@ -1,0 +1,33 @@
+1. npm i body-parser ->  body parsing middleware //giao tiếp client and server, viết API
+2. npm i dotenv -> that loads environment variables from a .env file into process.env
+3. npm i ejs -> view engine
+4. npm i express
+5. npm --save-dev i @babel/core  -> compiler of nodejs
+6. npm --save-dev i @babel/node -> compiler of nodejs
+7. npm --save-dev i @babel/preset-env -> compiler of nodejs
+8. npm --save-dev i nodemon -> listen changes on server
+9. npm i sequelize
+10. npm i sequelize-cli -> work with db
+11. npm i --save mysql2 
+19. npm i cors --save -> call API internal website
+20. npm i moment
+21. npm i lodash
+
+11. /src npx i sequelize-cli init
+12. npx sequelize-cli model:generate --name User --attributes firstname:string,lastname:string,email:string -> tạo model
+14. npx sequelize-cli db:migrate -> tạo migrations
+15. npx sequelize-cli seed:generate --name demo-user -> tạo Seeders
+16. npx sequelize-cli db:seed:all -> run Seeds
+17. npx sequelize-cli db:migrate -> create DB table //migrations
+18. npx sequelize-cli db:seed:all -> add data to DB table //seeders
+19. npx sequelize-cli db:migrate --to migration-create-user.js -> modify only 1 migration
+Project Structure
+1. services -> get data from database
+2. config -> cấu hình tham số dự án
+3. views -> render ui
+4. public -> storage img, video, icon
+5. route -> cấu hình route
+6. .env -> cấu hình các tham số môi trường
+7. .env.example -> giống .env nhưng khác là không ghi giá trị vào
+8. .gitignore -> quy định file nào sẽ đẩy lên server
+8. .babalrc -> cấu hình trình compiler

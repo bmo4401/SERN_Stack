@@ -1,0 +1,84 @@
+﻿Nội dung khóa học (~ 81 hours) - SERN
+
+
+Chương 1: Làm Full Stack developer thì cần gì ? (4 hours)
+(Từ video #0 đến video #14 = 15 videos) 
+1. Hiểu được những kiến thức cần chuẩn bị để trở thành 1 fullstack Developer
+2. Chuẩn bị môi trường project (set up Visual studio…)
+3. HTML, CSS và SCSS basic
+4. Github
+
+
+Chương 2: Giới thiệu Node.js - Tạo server backend và database (7 hours)
+ (Từ video #15 đến video #29 = 15 videos) = 
+1. Node.JS là gì ?
+2. Làm server backend với Express và MySQL
+3. CRUD với Node.js (sử dụng ORM - Sequelize)
+4. Sử dụng Postman để test API
+
+
+Chương 3: Giới thiệu React.js - Tạo giao diện người dùng (12 hours)
+(Từ video #30 đến video #43 = 15 videos) = 
+1. Tại sao lại lựa chọn React, không phải Angular hay Vue.js ?
+2. React cơ bản: State, onClick…
+3. Ghép API với Server Backend Node.js
+4. CRUD với React (API từ server Backend Node.js)
+
+
+Chương 4: Design giao diện Clone Booking Care (React) (9 hours)
+(Từ video #44 đến video #51 = 8 videos)
+1. Design giao diện trang home Bookingcare (tham chiếu bookingcare.vn)
+2. Tích hợp thư viện : React-slider-carousel
+3. Hiển thị giao diện đa ngôn ngữ (Anh-Việt)
+
+
+Chương 5: Sử dụng Redux trong dự án React (10 hours)
+(Từ video #52 đến video #61 = 10 videos)
+1. Tích hợp hiển thị giao diện đa ngôn ngữ (Anh-Việt)
+2. Tạo menu phân theo role người dùng (admin)
+3. CRUD với Redux
+
+
+
+
+Chương 6: Hoàn thiện section Thông tin Bác Sĩ (10 hours)
+(Từ video #62 đến video #70 = 9 videos
+1. Đọc, Ghi File với MySQL (save images as BLOB)
+2. Markdown tạo blog
+3. Sequelize Relationship (Eager loading)
+4. Hoàn thiện section ‘Bác sĩ nổi bật’ và xem ‘chi tiết bác sĩ’
+
+
+Chương 7: Hoàn thiện chức năng đặt lịch khám bệnh (18 hours)
+(Từ video #71 đến video #89 = 18 videos)
+1. Tạo/sửa/hiển thị lịch hẹn bác sĩ theo thời gian (section-left)
+2. Tạo/sửa/hiển thị thông tin đặt lịch khám bệnh (section-right)
+3. Modal đặt lịch khám bệnh
+4. Xác thực lịch hẹn qua Gmail (gửi email với Nodemailer)
+
+
+Chương 8: Hoàn thiện chức năng cho bác sĩ (11 hours)
+( Từ video 90 đến video #100 = 11 videos)
+1. Tạo/sửa/hiển thị Danh sách phòng khám (cơ sở y tế)
+2. Tạo/sửa/hiển thị Danh sách các chuyên khoa khám bệnh
+3. Hiển thị danh sách bác sĩ theo phòng khám/chuyên khoa
+4. Thinking in React (reuse Component)
+5. Hiển thị danh sách bệnh nhân đặt lịch với bác sĩ
+6. Gửi hóa đơn/đơn thuốc cho bệnh nhân sau khi khám thành công 
+(gửi attachment với NodeMailer)
+
+
+
+
+Update: 21/8/2021
+Chương 9: Triển khai ứng dụng thực tế ( 5 hours) => sum = 86 hours (cả khóa học)
+(Từ video #101 đến video #107 = 7 videos)
+1. Migrate database từ MySQL sang Postgres
+2. Sử dụng Postgres với Heroku
+3. Deploy ứng dụng Node.js
+4. Deploy ứng dụng React
+5. Nhúng Social Plugin Facebook: Like, Share và Comment
+6. Nhúng Chat Plugin Facebook: chatbot
+
+
+________________
